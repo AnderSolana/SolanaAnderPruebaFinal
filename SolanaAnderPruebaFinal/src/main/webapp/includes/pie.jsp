@@ -1,17 +1,14 @@
-<footer id="pie">
-    <nav>
-        <ul>
-            <li><a href="#" class="footerLink">Quiénes somos</a></li>
-            <li><a href="#" class="footerLink">Servicios</a></li>
-            <li><a href="#" class="footerLink">Proyectos</a></li>
-            <li><a href="#" class="footerLink">Blog</a></li>
-            <li><a href="#" class="footerLink">Contacto</a></li>
-        </ul>
-    </nav>
- 
-    <p  class="footerLink">&copy;Copyright 2018</p>
-    
+<!-- Footer -->
+<footer class="page-footer font-small blue">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2018 Copyright: Ander Solana
+
+  </div>
+  <!-- Copyright -->
+
 </footer>
+<!-- Footer -->
     
 </body>
 </html>
