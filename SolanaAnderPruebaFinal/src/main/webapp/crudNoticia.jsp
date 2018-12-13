@@ -39,7 +39,7 @@
 		<div class="form-group">
 			<label class="control-label col-sm-2" for="texto">Texto</label>
 			<div class="col-sm-10">
-			<input type="text" name="texto" id="texto" value="${noticia.texto }" />
+			<textarea name="texto" id="texto" cols="50" rows="10">${noticia.texto}</textarea>
 			</div>
 		</div>
 		

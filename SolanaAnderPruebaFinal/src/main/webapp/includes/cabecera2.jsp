@@ -21,5 +21,5 @@
     
 <header id="cabecera">
     
-    <a href="/SolanaAnderPruebaFinal/noticias" class="btn btn-warning">Cerrar Sesión</a>
+    <a href="login" class="btn btn-warning">Cerrar Sesión</a>
 </header> 

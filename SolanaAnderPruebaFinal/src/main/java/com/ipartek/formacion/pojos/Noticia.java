@@ -1,6 +1,10 @@
 package com.ipartek.formacion.pojos;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
+
+import javax.servlet.ServletException;
 
 public class Noticia {
 	
