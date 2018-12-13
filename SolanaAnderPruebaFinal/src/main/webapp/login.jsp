@@ -27,6 +27,7 @@
       <input type="password" id="password" name="password" class="form-control" placeholder="Contraseña" required>
       
       <button class="btn btn-lg btn-primary btn-block" type="submit">Entrar</button>
+      <a href="noticias" class="btn btn-lg btn-secondary btn-block" >Entrar como invitado</a>
     </form>
   </body>
 </html>

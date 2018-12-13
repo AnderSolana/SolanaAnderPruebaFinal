@@ -17,38 +17,18 @@
 
 	
 <body>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Logo_TV_2015.png" width="150px" height="150px" alt="Logo">
+      <a class="navbar-brand" href="#">Noticias</a>
+    </div>
+    <a href="login" class="btn btn-warning">LOGIN</a>
+  </div>
+</nav>
 	
     
-<header id="cabecera">
-    <div id="headerContent">
-	<h1 id="logo">
-        <a href="index.html">
-            <img src="media/logo.jpg" alt="Logo">
-        </a>
-    </h1>   
+
     
-    <nav>
-        <ul id="menuPrincipal">
-            <li><a class="linkMenu" href="#">Quiénes somos</a></li>
-            <li><a class="linkMenu" href="#">Servicios</a></li>
-            <li><a class="linkMenu" href="#">Proyectos</a></li>
-            <li><a class="linkMenu" href="#">Blog</a></li>
-            <li><a class="linkMenu" href="#">Contacto</a></li>
-        </ul>
-    </nav>
-    </div>
-    <ul id="rrss">
-        <li>
-            <a href="http://www.facebook.com">
-                <img src="media/logo-facebook.gif" alt="Facebook">
-            </a>
-        </li>
-        <li>
-            <a href="http://www.twitter.com">
-                <img src="media/logo-twitter.gif" alt="Twitter">
-            </a>
-        </li>
-    </ul>
     
-    <a href="login" class="btn btn-warning">LOGIN</a>
-</header> 

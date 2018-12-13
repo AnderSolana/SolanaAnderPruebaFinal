@@ -17,9 +17,14 @@
 
 	
 <body>
-	
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Logo_TV_2015.png" width="150px" height="150px" alt="Logo">
+      <a class="navbar-brand" href="#">Noticias</a>
+    </div>
+     <a href="login" class="btn btn-warning">Cerrar Sesión</a>
+  </div>
+</nav>
     
-<header id="cabecera">
-    
-    <a href="login" class="btn btn-warning">Cerrar Sesión</a>
-</header> 
+   
