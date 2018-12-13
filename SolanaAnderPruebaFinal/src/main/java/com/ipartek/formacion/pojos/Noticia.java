@@ -1,18 +1,22 @@
 package com.ipartek.formacion.pojos;
 
+import java.util.Date;
+
 public class Noticia {
 	
 	private Long id;
 	private String titulo, autor, texto, imagen;
+	private Date fecha; 
 	
 		
 	
-	public Noticia(Long id, String titulo, String autor, String texto, String imagen) {
+	public Noticia(Long id, String titulo, String autor, String texto, String imagen, Date fecha) {
 		setId(id);
 		setTitulo(titulo);
 		setAutor(autor);
 		setTexto(texto);
 		setImagen(imagen);
+		setFecha(fecha);
 	}
 	
 	
@@ -45,8 +49,17 @@ public class Noticia {
 	}
 	public void setImagen(String imagen) {
 		this.imagen = "https://picsum.photos/200/300/?random";
+	}
+
+
+	public Date getFecha() {
+		return fecha;
+	}
+
+
+	public void setFecha(Date fecha) {
+		this.fecha = fecha;
 	} 
-	
-	
+		
 
 }
