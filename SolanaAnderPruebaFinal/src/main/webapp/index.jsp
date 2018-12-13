@@ -27,7 +27,7 @@
 				<p>${noticia.texto}</p>
 			</div>
 			<p>
-				<a href="#" class="btn btn-info">Leer más</a>
+				<a href="visualizarnoticia?id=${noticia.id}" class="btn btn-info">Leer más</a>
 			</p>
 
 		</article>
