@@ -16,7 +16,7 @@
 
 			<footer>
 				Publicado el
-				<time datetime="${noticia.fecha}"> ${noticia.fecha}</time>
+				<time datetime="2017-01-23"> ${noticia.fecha}</time>
 				por <a href="#"> ${noticia.autor}</a>
 			</footer>
 			<div class="noticia">
@@ -27,11 +27,17 @@
 				<p>${noticia.texto}</p>
 			</div>
 			<p>
-				<a href="#" class="btn btn-info">Leer más</a>
+				<a href="#">leer más</a> <a
+					href="formularionoticia?accion=editar&id=${noticia.id }">Editar</a>
+				<a href="formularionoticia?accion=borrar&id=${noticia.id }">Borrar</a>
 			</p>
 
 		</article>
 	</c:forEach>
+
+	<p>
+		<a href="formularionoticia?accion=insertar">Añadir</a>
+	</p>
 
 </section>
 

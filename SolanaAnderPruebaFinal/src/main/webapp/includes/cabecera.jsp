@@ -2,18 +2,12 @@
     pageEncoding="UTF-8" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
-<%-- <%
-	
-	Object oNoticias = request.getAttribute("noticias");
-	ArrayList <Noticia> noticias = (ArrayList<Noticia>)oNoticias;
-	
-%> --%>
 <!DOCTYPE html>
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
 	<meta name="generator" content="Notepad++">
-	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 	<title>Práctica Estructura y CSS</title>
 	
 	<style>
@@ -55,4 +49,6 @@
             </a>
         </li>
     </ul>
+    
+    <a href="/login" class="btn btn-warning">LOGIN</a>
 </header> 
