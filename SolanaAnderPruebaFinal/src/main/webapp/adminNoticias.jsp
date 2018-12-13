@@ -1,44 +1,25 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<%@ include file="includes/cabecera.jsp"%>
+<%@ include file="includes/cabecera2.jsp"%>
 
-<section class="container">
-	<h2>Últimas noticias</h2>
-
+<div class="container">
+<div class="page-header">
+	<h1>Administrar Noticias</h1>
+</div>
+<div class="jumbotron">
+	<table class="table table-bordered">
+	<caption><a href="formulariolibro?accion=insertar">Crear nueva noticia</a></caption>
+		<tr class="table-dark">
+			<th>Título</th><th>Autor</th><th>Texto</th><th colspan="2">Acciones</th>
+		</tr>
 	<c:forEach items="${noticias.values()}" var="noticia">
-		<article class="col-md-10">
-			<header>
-
-
-				<h3>${noticia.titulo}</h3>
-
-			</header>
-
-			<footer>
-				Publicado el
-				<time datetime="2017-01-23"> ${noticia.fecha}</time>
-				por <a href="#"> ${noticia.autor}</a>
-			</footer>
-			<div class="noticia">
-				<p>
-					<img src=" ${noticia.imagen}" alt="">
-				</p>
-
-				<p>${noticia.texto}</p>
-			</div>
-			<p>
-				<a href="#">leer más</a> <a
-					href="formularionoticia?accion=editar&id=${noticia.id }">Editar</a>
-				<a href="formularionoticia?accion=borrar&id=${noticia.id }">Borrar</a>
-			</p>
-
-		</article>
+		<tr class="table-primary">
+			<td>${noticia.titulo}</td><td>${noticia.autor}</td><td>${noticia.texto}</td>
+			<td><a href="formulariolibro?accion=editar&id=${noticia.id }">Editar</a></td><td><a href="formulariolibro?accion=borrar&id=${noticia.id }">Borrar</a></td>
+		</tr>
 	</c:forEach>
-
-	<p>
-		<a href="formularionoticia?accion=insertar">Añadir</a>
-	</p>
-
-</section>
+	</table>
+</div>
+</div>
 
 <%@ include file="includes/pie.jsp"%>

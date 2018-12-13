@@ -50,5 +50,5 @@
         </li>
     </ul>
     
-    <a href="/login" class="btn btn-warning">LOGIN</a>
+    <a href="/SolanaAnderPruebaFinal/adminNoticias.jsp" class="btn btn-warning">LOGIN</a>
 </header> 
